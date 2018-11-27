@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		68505EB521AB9BC80055E2AC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68505EB421AB9BC80055E2AC /* main.cpp */; };
+		68505EBF21ABA9860055E2AC /* WLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 68505EBD21ABA9860055E2AC /* WLinkedList.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		68505EB121AB9BC80055E2AC /* MyC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MyC; sourceTree = BUILT_PRODUCTS_DIR; };
 		68505EB421AB9BC80055E2AC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		68505EBD21ABA9860055E2AC /* WLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WLinkedList.cpp; sourceTree = "<group>"; };
+		68505EBE21ABA9860055E2AC /* WLinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = WLinkedList.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				68505EB421AB9BC80055E2AC /* main.cpp */,
+				68505EBD21ABA9860055E2AC /* WLinkedList.cpp */,
+				68505EBE21ABA9860055E2AC /* WLinkedList.hpp */,
 			);
 			path = MyC;
 			sourceTree = "<group>";
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68505EBF21ABA9860055E2AC /* WLinkedList.cpp in Sources */,
 				68505EB521AB9BC80055E2AC /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
